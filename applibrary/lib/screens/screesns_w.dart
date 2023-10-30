@@ -38,11 +38,11 @@ class _ScreensWrapperState extends State<ScreensWrapper> {
             label: 'Home',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.store_mall_directory_outlined),
+            icon: Icon(Icons.store_mall_directory_rounded),
             label: 'Book Store',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.badge_outlined),
+            icon: Icon(Icons.badge_sharp),
             label: 'Profile',
           ),
         ],
