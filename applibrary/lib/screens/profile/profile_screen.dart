@@ -13,7 +13,7 @@ class ProfileScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "Rami Al-Karo 🐫",
+          "Nurul Safitri",
           style: Theme.of(context).textTheme.labelLarge,
         ),
       ),

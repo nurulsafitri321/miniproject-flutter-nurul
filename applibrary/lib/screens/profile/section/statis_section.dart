@@ -9,7 +9,7 @@ class StatisSection extends StatelessWidget {
       Column(
         children: [
           Text(
-            "29",
+            "20",
             style: Theme.of(context).textTheme.titleLarge,
           ),
           const SizedBox(

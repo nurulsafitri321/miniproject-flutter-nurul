@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class BookCover3D extends StatefulWidget {
   final String imageUrl;
 
-  BookCover3D({
+  const BookCover3D({
     required this.imageUrl,
   });
 

@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "Lit Habit",
+          "Lbrary",
           style: Theme.of(context).textTheme.labelLarge,
         ),
       ),

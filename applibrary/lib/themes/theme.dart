@@ -3,11 +3,11 @@ import 'package:google_fonts/google_fonts.dart';
 
 final ThemeData customTheme = ThemeData(
   scaffoldBackgroundColor: Colors.white,
-  bottomNavigationBarTheme: BottomNavigationBarThemeData(
+  bottomNavigationBarTheme: const BottomNavigationBarThemeData(
     backgroundColor: Colors.white,
     elevation: 0,
-    unselectedItemColor: Colors.grey[300],
-    selectedItemColor: Colors.pink,
+    unselectedItemColor: Color.fromARGB(255, 102, 91, 91),
+    selectedItemColor: Color.fromARGB(255, 179, 2, 214),
   ),
   primaryColor: Colors.blue,
   appBarTheme: AppBarTheme(
