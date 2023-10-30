@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:applibrary/screens/screesns_w.dart';
 import 'package:applibrary/themes/theme.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 
 class MyApp extends StatefulWidget {
@@ -43,7 +44,7 @@ class _MyAppState extends State<MyApp> {
   Widget _buildLoadingScreen() {
     return Center(
       child: Image.asset(
-        'assets/loader.gif',
+        'assets/bukuu.gif',
         fit: BoxFit.contain,
         width: MediaQuery.of(context).size.width,
         height: MediaQuery.of(context).size.height,

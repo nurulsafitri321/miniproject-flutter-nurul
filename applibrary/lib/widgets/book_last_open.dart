@@ -23,7 +23,7 @@ class LastOpenedBook extends StatelessWidget {
                 context,
                 MaterialPageRoute(
                     builder: (context) => ReadingBook(
-                          pdfPath: "assets/harry_potter.pdf",
+                          pdfPath: "assets/tarbiyah.pdf",
                         )),
               );
             },
