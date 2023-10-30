@@ -38,7 +38,7 @@ class _ScreensWrapperState extends State<ScreensWrapper> {
             label: 'Home',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.store_mall_directory_rounded),
+            icon: Icon(Icons.shopping_cart_checkout_sharp),
             label: 'Book Store',
           ),
           BottomNavigationBarItem(

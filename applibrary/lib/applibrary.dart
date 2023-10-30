@@ -33,7 +33,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Lit Habit',
+      title: 'Library',
       theme: customTheme,
       home: Scaffold(
         

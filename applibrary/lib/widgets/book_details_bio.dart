@@ -37,7 +37,7 @@ class BookDetailsBio extends StatelessWidget {
                       BarcodeBuilder(value: book.isbn),
                 );
               },
-              child: const Icon(Icons.qr_code_2, size: 40),
+              child: const Icon(Icons.qr_code_2_rounded, size: 40),
             ),
           ],
         ),

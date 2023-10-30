@@ -27,7 +27,7 @@ class LastOpenedBook extends StatelessWidget {
                         )),
               );
             },
-            child: BookCover3D(
+            child: const BookCover3D(
               imageUrl:
                   "https://m.media-amazon.com/images/I/418HLIXlxCL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
             ),

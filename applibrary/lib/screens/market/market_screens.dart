@@ -15,7 +15,7 @@ class MarketScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "Market",
+          "Store",
           style: Theme.of(context).textTheme.labelLarge,
         ),
       ),
