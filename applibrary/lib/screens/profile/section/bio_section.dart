@@ -9,12 +9,12 @@ class BioSection extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          "TECH & IT",
+          "TECHNOLOGY INFORMATION",
           style: Theme.of(context).textTheme.headlineLarge,
         ),
         const SizedBox(height: 16),
         Text(
-          "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. ",
+          "Information technology students are people who are pursuing a degree in information technology in college. This field studies how to design, develop, and use information technology to solve problems.",
           style: Theme.of(context).textTheme.bodySmall,
         ),
       ],

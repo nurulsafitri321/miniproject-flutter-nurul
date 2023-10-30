@@ -11,7 +11,7 @@ class LevelProgressSection extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Text(
-              "LV 5",
+              "LV 3",
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700),
             ),
             Text(
@@ -33,7 +33,7 @@ class LevelProgressSection extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Text(
-              "500 xp",
+              "300 xp",
               style: Theme.of(context).textTheme.titleSmall,
             ),
             Text(

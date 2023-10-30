@@ -33,10 +33,10 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Library',
       theme: customTheme,
-      home: Scaffold(
-        
+      home: Scaffold( 
         body: _isLoading ? _buildLoadingScreen() : const ScreensWrapper(),
       ),
     );

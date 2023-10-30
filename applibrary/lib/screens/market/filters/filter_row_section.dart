@@ -10,7 +10,6 @@ class FilterRowSection extends StatefulWidget {
 class _FilterRowSectionState extends State<FilterRowSection> {
   final List<String> filterOptions = [
     'Discover',
-    'Romantic',
     'Author',
     'Genres',
     'Health',

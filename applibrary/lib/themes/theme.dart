@@ -2,17 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 final ThemeData customTheme = ThemeData(
-  scaffoldBackgroundColor: Colors.white,
+  scaffoldBackgroundColor: const Color.fromARGB(255, 253, 195, 245),
   bottomNavigationBarTheme: const BottomNavigationBarThemeData(
-    backgroundColor: Colors.white,
+    backgroundColor: Color.fromARGB(255, 206, 87, 219),
     elevation: 0,
-    unselectedItemColor: Color.fromARGB(255, 102, 91, 91),
-    selectedItemColor: Color.fromARGB(255, 179, 2, 214),
+    unselectedItemColor: Color.fromARGB(255, 179, 172, 172),
+    selectedItemColor: Color.fromARGB(255, 255, 255, 255),
   ),
-  primaryColor: Colors.blue,
+  primaryColor: const Color.fromARGB(255, 228, 161, 219),
   appBarTheme: AppBarTheme(
       elevation: 0,
-      backgroundColor: Colors.white,
+      backgroundColor: const Color.fromARGB(255, 209, 95, 221),
       iconTheme: const IconThemeData(color: Colors.black),
       titleTextStyle: GoogleFonts.robotoMono(
         letterSpacing: 1.3,
@@ -22,7 +22,7 @@ final ThemeData customTheme = ThemeData(
       ),
       actionsIconTheme: const IconThemeData(size: 30)),
   progressIndicatorTheme: ProgressIndicatorThemeData(
-    color: Colors.pink,
+    color: const Color.fromARGB(255, 209, 95, 221),
     linearTrackColor: Colors.pink[100],
   ),
   textTheme: TextTheme(
@@ -51,6 +51,6 @@ final ThemeData customTheme = ThemeData(
     headlineSmall: GoogleFonts.robotoMono(
         fontSize: 14, color: Colors.black38, fontWeight: FontWeight.w700),
   ),
-  iconTheme: const IconThemeData(color: Colors.pink),
-  buttonTheme: const ButtonThemeData(buttonColor: Colors.pink),
+  iconTheme: const IconThemeData(color: Color.fromARGB(255, 191, 12, 245)),
+  buttonTheme: const ButtonThemeData(buttonColor: Color.fromARGB(255, 193, 8, 230)),
 );

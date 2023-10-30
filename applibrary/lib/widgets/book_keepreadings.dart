@@ -39,7 +39,7 @@ class KeepReadingSection extends StatelessWidget {
               context,
               MaterialPageRoute(
                 builder: (context) => ReadingBook(
-                  pdfPath: "assets/harry_potter.pdf",
+                  pdfPath: "assets/pdf/A-History-of-Mediaeval-Jewish-Philosophy.pdf",
                 ),
               ),
             );
