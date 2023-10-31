@@ -7,7 +7,7 @@ final ThemeData customTheme = ThemeData(
     backgroundColor: Color.fromARGB(255, 206, 87, 219),
     elevation: 0,
     unselectedItemColor: Color.fromARGB(255, 179, 172, 172),
-    selectedItemColor: Color.fromARGB(255, 255, 255, 255),
+    selectedItemColor: Color.fromARGB(255, 219, 28, 210),
   ),
   primaryColor: const Color.fromARGB(255, 228, 161, 219),
   appBarTheme: AppBarTheme(

@@ -45,6 +45,10 @@ class _ScreensWrapperState extends State<ScreensWrapper> {
             icon: Icon(Icons.badge_sharp),
             label: 'Profile',
           ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.book_rounded),
+            label: 'Summary',
+          ),
         ],
       ),
     );

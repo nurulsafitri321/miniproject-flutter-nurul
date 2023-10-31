@@ -37,6 +37,10 @@ dependencies:
   syncfusion_flutter_pdfviewer: ^23.1.42
   http: ^1.1.0
   cached_video_player: ^2.0.4
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  intl: ^0.18.1
+  path_provider: ^2.1.1
 
 
 
