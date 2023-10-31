@@ -1,11 +1,15 @@
+import 'dart:ffi';
+
 import 'package:applibrary/screens/home/home_screens.dart';
 import 'package:applibrary/screens/market/market_screens.dart';
 import 'package:applibrary/screens/profile/profile_screen.dart';
+import 'package:applibrary/screens/view/summary_screen.dart';
 import 'package:flutter/material.dart';
 
 
 class ScreensWrapper extends StatefulWidget {
   const ScreensWrapper({Key? key}) : super(key: key);
+  
 
   @override
   _ScreensWrapperState createState() => _ScreensWrapperState();
@@ -18,6 +22,7 @@ class _ScreensWrapperState extends State<ScreensWrapper> {
     const HomeScreen(),
     const MarketScreen(),
     const ProfileScreen(),
+    //const SummaryScreen(summary: null,),
   ];
 
   @override

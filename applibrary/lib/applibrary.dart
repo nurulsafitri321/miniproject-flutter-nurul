@@ -1,6 +1,8 @@
 import 'dart:async';
 
+import 'package:applibrary/authentication/login.dart';
 import 'package:applibrary/screens/screesns_w.dart';
+import 'package:applibrary/screens/view/summary.dart';
 import 'package:applibrary/themes/theme.dart';
 import 'package:flutter/material.dart';
 
@@ -36,6 +38,10 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       title: 'Library',
       theme: customTheme,
+      routes: {
+        '/login': (context) => const LoginScreen(),
+        '/summary': (context) => const Summary(),
+      },
       home: Scaffold( 
         body: _isLoading ? _buildLoadingScreen() : const ScreensWrapper(),
       ),
