@@ -16,22 +16,6 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  bool _isLoading = true;
-
-  @override
-  void initState() {
-    super.initState();
-    _startDelayTimer();
-  }
-
-  void _startDelayTimer() {
-    Timer(const Duration(seconds: 3), () {
-      setState(() {
-        _isLoading = false;
-      });
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -42,20 +26,7 @@ class _MyAppState extends State<MyApp> {
         '/login': (context) => const LoginScreen(),
         '/summary': (context) => const Summary(),
       },
-      home: Scaffold( 
-        body: _isLoading ? _buildLoadingScreen() : const ScreensWrapper(),
-      ),
-    );
-  }
-
-  Widget _buildLoadingScreen() {
-    return Center(
-      child: Image.asset(
-        'assets/bukuu.gif',
-        fit: BoxFit.contain,
-        width: MediaQuery.of(context).size.width,
-        height: MediaQuery.of(context).size.height,
-      ),
+      home: const LoginScreen(),
     );
   }
 }
