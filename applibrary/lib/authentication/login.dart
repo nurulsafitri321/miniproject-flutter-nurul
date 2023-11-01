@@ -1,5 +1,6 @@
 import 'package:applibrary/authentication/signup.dart';
 import 'package:applibrary/jsonModels/user.dart';
+import 'package:applibrary/screens/screesns_w.dart';
 import 'package:applibrary/screens/view/summary.dart';
 import 'package:applibrary/sqlite/sqlite.dart';
 import 'package:flutter/material.dart';
@@ -35,7 +36,7 @@ class _LoginScreenState extends State<LoginScreen> {
       //If login is correct, then goto summarys
       if (!mounted) return;
       Navigator.pushReplacement(
-          context, MaterialPageRoute(builder: (context) => const Summary()));
+          context, MaterialPageRoute(builder: (context) => const ScreensWrapper()));
     } else {
       //If not, true the bool value to show error message
       setState(() {

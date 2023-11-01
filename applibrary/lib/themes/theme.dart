@@ -4,15 +4,15 @@ import 'package:google_fonts/google_fonts.dart';
 final ThemeData customTheme = ThemeData(
   scaffoldBackgroundColor: const Color.fromARGB(255, 253, 195, 245),
   bottomNavigationBarTheme: const BottomNavigationBarThemeData(
-    backgroundColor: Color.fromARGB(255, 206, 87, 219),
+    backgroundColor: Color.fromARGB(255, 141, 19, 155),
     elevation: 0,
     unselectedItemColor: Color.fromARGB(255, 179, 172, 172),
-    selectedItemColor: Color.fromARGB(255, 219, 28, 210),
+    selectedItemColor: Color.fromARGB(255, 161, 7, 154),
   ),
   primaryColor: const Color.fromARGB(255, 228, 161, 219),
   appBarTheme: AppBarTheme(
       elevation: 0,
-      backgroundColor: const Color.fromARGB(255, 209, 95, 221),
+      backgroundColor: const Color.fromARGB(255, 146, 21, 160),
       iconTheme: const IconThemeData(color: Colors.black),
       titleTextStyle: GoogleFonts.robotoMono(
         letterSpacing: 1.3,
@@ -22,7 +22,7 @@ final ThemeData customTheme = ThemeData(
       ),
       actionsIconTheme: const IconThemeData(size: 30)),
   progressIndicatorTheme: ProgressIndicatorThemeData(
-    color: const Color.fromARGB(255, 209, 95, 221),
+    color: const Color.fromARGB(255, 141, 19, 155),
     linearTrackColor: Colors.pink[100],
   ),
   textTheme: TextTheme(
