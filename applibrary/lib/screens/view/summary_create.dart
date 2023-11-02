@@ -25,7 +25,7 @@ class _CreateSummaryState extends State<CreateSummary> {
           IconButton(
               onPressed: () {
                 //Add Summary button
-                //We should not allow empty data to the database
+                //not allow empty data to the database
                 if (formKey.currentState!.validate()) {
                   db
                       .createSummary(SummaryModel(
@@ -42,7 +42,7 @@ class _CreateSummaryState extends State<CreateSummary> {
         ],
       ),
       body: Form(
-          //I forgot to specify key
+          
           key: formKey,
           child: Padding(
             padding: const EdgeInsets.all(10.0),

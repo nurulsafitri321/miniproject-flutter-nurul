@@ -14,9 +14,9 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
-  //We need two text editing controller
+  //editing controller
 
-  //TextEditing controller to control the text when we enter into it
+  //TextEditing controller to control the text when enter into it
   final username = TextEditingController();
   final password = TextEditingController();
 
@@ -28,7 +28,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
   final db = DatabaseHelper();
 
-  //Now we should call this function in login button
+  //call this function in login button
   login() async {
     var response = await db
         .login(Users(usrName: username.text, usrPassword: password.text));
@@ -45,7 +45,7 @@ class _LoginScreenState extends State<LoginScreen> {
     }
   }
 
-  //We have to create global key for our form
+  //create global key for our form
   final formKey = GlobalKey<FormState>();
   @override
   Widget build(BuildContext context) {
@@ -54,14 +54,14 @@ class _LoginScreenState extends State<LoginScreen> {
         child: SingleChildScrollView(
           child: Padding(
             padding: const EdgeInsets.all(10.0),
-            //We put all our textfield to a form to be controlled and not allow as empty
+            //textfield to a form to be controlled and not allow as empty
             child: Form(
               key: formKey,
               child: Column(
                 children: [
                   //Username field
 
-                  //Before we show the image, after we copied the image we need to define the location in pubspec.yaml
+                  
                   Image.asset(
                     "assets/images/buku2.gif",
                     width: 210,
@@ -113,7 +113,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           hintText: "Password",
                           suffixIcon: IconButton(
                               onPressed: () {
-                                //In here we will create a click to show and hide the password a toggle button
+                                //create a click to show and hide the password a toggle button
                                 setState(() {
                                   //toggle button
                                   isVisible = !isVisible;
@@ -139,8 +139,8 @@ class _LoginScreenState extends State<LoginScreen> {
                             //Login method will be here
                             login();
 
-                            //Now we have a response from our sqlite method
-                            //We are going to create a user
+                            //response from our sqlite method
+                            //going to create a user
                           }
                         },
                         child: const Text(
@@ -166,7 +166,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     ],
                   ),
 
-                  // We will disable this message in default, when user and pass is incorrect we will trigger this message to user
+                  //disable this message in default, when user and pass is incorrect we will trigger this message to user
                   isLoginTrue
                       ? const Text(
                           "Username or passowrd is incorrect",

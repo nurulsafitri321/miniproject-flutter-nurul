@@ -3,8 +3,6 @@ import 'package:applibrary/screens/market/suggestion/discount_books.dart';
 import 'package:applibrary/screens/market/suggestion/popular_books.dart';
 import 'package:applibrary/screens/market/suggestion/trend_books.dart';
 import 'package:flutter/material.dart';
-
-
 import 'filters/search_bar.dart';
 
 class MarketScreen extends StatelessWidget {

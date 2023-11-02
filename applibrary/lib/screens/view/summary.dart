@@ -38,7 +38,7 @@ class Summary extends StatefulWidget {
   }
 
   //Search method here
-  //First we have to create a method in Database helper class
+  //First create a method in Database helper class
   Future<List<SummaryModel>> searchSummary() {
     return handler.searchSummarys(keyword.text);
   }
@@ -58,9 +58,9 @@ class Summary extends StatefulWidget {
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {
-            //We need call refresh method after a new Summary is created
-            //Now it works properly
-            //We will do delete now
+            //refresh method after a new Summary is created
+            
+            //delete now
             Navigator.push(context,
                     MaterialPageRoute(builder: (context) => const CreateSummary()))
                 .then((value) {
@@ -124,7 +124,7 @@ class Summary extends StatefulWidget {
                             trailing: IconButton(
                               icon: const Icon(Icons.delete),
                               onPressed: () {
-                                //We call the delete method in database helper
+                                //delete method in database helper
                                 db
                                     .deleteSummary(items[index].summaryId!)
                                     .whenComplete(() {
