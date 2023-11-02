@@ -27,7 +27,7 @@ class Summary extends StatefulWidget {
     handler = DatabaseHelper();
     summary = handler.getSummarys();
 
-    handler.initDB().whenComplete(() {
+    handler.database.whenComplete(() {
       summary = getAllSummarys();
     });
     super.initState();

@@ -32,6 +32,7 @@ class _LoginScreenState extends State<LoginScreen> {
   login() async {
     var response = await db
         .login(Users(usrName: username.text, usrPassword: password.text));
+        print(response);
     if (response == true) {
       //If login is correct, then goto summarys
       if (!mounted) return;

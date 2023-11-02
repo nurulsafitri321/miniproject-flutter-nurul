@@ -22,6 +22,7 @@ class _ScreensWrapperState extends State<ScreensWrapper> {
     const HomeScreen(),
     const MarketScreen(),
     const ProfileScreen(),
+    SummaryScreen(),
     //const SummaryScreen(summary: null,),
   ];
 

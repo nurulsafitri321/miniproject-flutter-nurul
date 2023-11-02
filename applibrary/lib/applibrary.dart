@@ -74,7 +74,7 @@ class _MyAppState extends State<MyApp> {
         
       },
       home: Scaffold( 
-        body: _isLoading ? _buildLoadingScreen() : const ScreensWrapper(),
+        body: _isLoading ? _buildLoadingScreen() : const Summary(),
       ),
     );
   }
