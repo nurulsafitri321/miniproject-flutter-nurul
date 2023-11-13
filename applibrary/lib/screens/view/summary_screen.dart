@@ -51,7 +51,7 @@ class SummaryScreen extends StatelessWidget {
                 ],
               ),
               style: ElevatedButton.styleFrom(
-                primary: Colors.purple,
+                primary: const Color.fromARGB(255, 61, 2, 71),
                 textStyle: const TextStyle(color: Colors.white),
               ),
             ),

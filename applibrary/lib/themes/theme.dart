@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 final ThemeData customTheme = ThemeData(
-  scaffoldBackgroundColor: const Color.fromARGB(255, 253, 195, 245),
+  scaffoldBackgroundColor: const Color.fromARGB(255, 248, 246, 248),
   bottomNavigationBarTheme: const BottomNavigationBarThemeData(
-    backgroundColor: Color.fromARGB(255, 141, 19, 155),
+    backgroundColor: Color.fromARGB(255, 76, 1, 85),
     elevation: 0,
     unselectedItemColor: Color.fromARGB(255, 179, 172, 172),
     selectedItemColor: Color.fromARGB(255, 161, 7, 154),
@@ -12,12 +12,12 @@ final ThemeData customTheme = ThemeData(
   primaryColor: const Color.fromARGB(255, 228, 161, 219),
   appBarTheme: AppBarTheme(
       elevation: 0,
-      backgroundColor: const Color.fromARGB(255, 146, 21, 160),
-      iconTheme: const IconThemeData(color: Colors.black),
+      backgroundColor: const Color.fromARGB(255, 69, 3, 77),
+      iconTheme: const IconThemeData(color: Color.fromARGB(255, 253, 253, 253)),
       titleTextStyle: GoogleFonts.robotoMono(
         letterSpacing: 1.3,
         fontSize: 20,
-        color: Colors.black,
+        color: const Color.fromARGB(255, 255, 255, 255),
         fontWeight: FontWeight.bold,
       ),
       actionsIconTheme: const IconThemeData(size: 30)),
@@ -28,28 +28,28 @@ final ThemeData customTheme = ThemeData(
   textTheme: TextTheme(
     titleSmall: GoogleFonts.robotoMono(
       fontSize: 14,
-      color: Colors.black,
+      color: const Color.fromARGB(255, 0, 0, 0),
     ),
     titleMedium: GoogleFonts.robotoMono(
       fontSize: 18,
-      color: Colors.black,
+      color: const Color.fromARGB(255, 0, 0, 0),
     ),
     titleLarge: GoogleFonts.robotoMono(
       fontSize: 22,
-      color: Colors.black,
+      color: const Color.fromARGB(255, 0, 0, 0),
     ),
-    labelSmall: GoogleFonts.gildaDisplay(fontSize: 22),
-    labelMedium: GoogleFonts.gildaDisplay(fontSize: 26),
-    labelLarge: GoogleFonts.gildaDisplay(fontSize: 30),
-    bodySmall: GoogleFonts.gildaDisplay(fontSize: 22),
-    bodyMedium: GoogleFonts.gildaDisplay(fontSize: 26),
-    bodyLarge: GoogleFonts.gildaDisplay(fontSize: 30),
+    labelSmall: GoogleFonts.robotoMono(fontSize: 16),
+    labelMedium: GoogleFonts.robotoMono(fontSize: 16),
+    labelLarge: GoogleFonts.robotoMono(fontSize: 16),
+    bodySmall: GoogleFonts.robotoMono(fontSize: 16),
+    bodyMedium: GoogleFonts.robotoMono(fontSize: 16),
+    bodyLarge: GoogleFonts.robotoMono(fontSize: 16),
     headlineLarge: GoogleFonts.robotoMono(
-        fontSize: 30, color: Colors.black, fontWeight: FontWeight.w700),
+        fontSize: 30, color: Color.fromARGB(255, 0, 0, 0), fontWeight: FontWeight.w700),
     headlineMedium: GoogleFonts.robotoMono(
         fontSize: 24, color: Colors.black, fontWeight: FontWeight.w700),
     headlineSmall: GoogleFonts.robotoMono(
-        fontSize: 14, color: Colors.black38, fontWeight: FontWeight.w700),
+        fontSize: 14, color: Color.fromARGB(95, 255, 255, 255), fontWeight: FontWeight.w700),
   ),
   iconTheme: const IconThemeData(color: Color.fromARGB(255, 191, 12, 245)),
   buttonTheme: const ButtonThemeData(buttonColor: Color.fromARGB(255, 193, 8, 230)),

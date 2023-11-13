@@ -12,9 +12,16 @@ class ProfileScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          "Nurul Safitri",
-          style: Theme.of(context).textTheme.labelLarge,
+        title: const Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Text(
+              "Nurul Safitri",
+            ),
+            const Icon(Icons.book),
+             // Add the book icon here
+
+          ],
         ),
       ),
       body: const SingleChildScrollView(

@@ -9,6 +9,8 @@ import 'package:flutter/material.dart';
 class Summary extends StatefulWidget {
   const Summary({super.key});
 
+  const Summary.withoutArgs() : super();
+
   @override
   State<Summary> createState() => _SummarysState();
 }

@@ -11,9 +11,9 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
+        title: const Text(
           "Library",
-          style: Theme.of(context).textTheme.labelLarge,
+          //style: Theme.of(context).textTheme.labelLarge,
         ),
       ),
       body: const SingleChildScrollView(

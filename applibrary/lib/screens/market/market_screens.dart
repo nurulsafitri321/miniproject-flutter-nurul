@@ -12,9 +12,9 @@ class MarketScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
+        title: const Text(
           "Store",
-          style: Theme.of(context).textTheme.labelLarge,
+          //style: Theme.of(context).textTheme.labelLarge,
         ),
       ),
       body: const SingleChildScrollView(
