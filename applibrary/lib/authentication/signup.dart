@@ -37,7 +37,7 @@ class _SignUpState extends State<SignUp> {
 
                   const ListTile(
                     title: Text(
-                      "Register New Account",
+                      "Register",
                       style:
                           TextStyle(fontSize: 50, fontWeight: FontWeight.bold),
                     ),
