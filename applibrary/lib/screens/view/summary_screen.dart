@@ -1,4 +1,6 @@
 
+import 'package:applibrary/screens/home/home_screens.dart';
+import 'package:applibrary/screens/rekomendasi/screens/home_screen.dart';
 import 'package:applibrary/screens/view/summary.dart';
 import 'package:applibrary/screens/view/summary_create.dart';
 import 'package:applibrary/sqlite/summary_model.dart';
@@ -14,7 +16,7 @@ class SummaryScreen extends StatelessWidget {
     return Scaffold(
       
       appBar: AppBar(
-        title: const Text( "summary"),
+        title: const Text( "Rekomendasi book & summary"),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -33,6 +35,33 @@ class SummaryScreen extends StatelessWidget {
 
             ElevatedButton(
               onPressed: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context) => const RekoScreen()));
+              },
+              //child: const Text('Create Summary'),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.start,
+                children: [
+                  const Padding(
+                    padding: EdgeInsets.all(10),
+                    child: Icon(Icons.add),
+                  ),
+                  const SizedBox(width: 5),
+                  const Padding(
+                    padding: EdgeInsets.all(20),
+                    child: Text('Get Rekomendasi'),
+                  ),
+                ],
+              ),
+              style: ElevatedButton.styleFrom(
+                primary: const Color.fromARGB(255, 61, 2, 71),
+                textStyle: const TextStyle(color: Colors.white),
+              ),
+            ),
+
+            SizedBox(height: 20),
+
+            ElevatedButton(
+              onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context) => const Summary()));
               },
               //child: const Text('Create Summary'),
@@ -46,7 +75,7 @@ class SummaryScreen extends StatelessWidget {
                   const SizedBox(width: 5),
                   const Padding(
                     padding: EdgeInsets.all(20),
-                    child: Text('Create Summary'),
+                    child: Text('Add Summary'),
                   ),
                 ],
               ),
@@ -55,6 +84,7 @@ class SummaryScreen extends StatelessWidget {
                 textStyle: const TextStyle(color: Colors.white),
               ),
             ),
+
           ],
         ),
       ),

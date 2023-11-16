@@ -64,7 +64,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
                   
                   Image.asset(
-                    "assets/images/buku2.gif",
+                    "assets/bukuu.gif",
                     width: 210,
                   ),
                   const SizedBox(height: 15),
