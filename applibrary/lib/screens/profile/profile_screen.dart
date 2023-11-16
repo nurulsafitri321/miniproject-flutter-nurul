@@ -18,9 +18,9 @@ class ProfileScreen extends StatelessWidget {
             Text(
               "Nurul Safitri",
             ),
-            const Icon(Icons.book),
+            Icon(Icons.book),
              // Add the book icon here
-
+            
           ],
         ),
       ),
